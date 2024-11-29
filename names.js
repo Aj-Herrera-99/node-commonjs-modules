@@ -5,5 +5,5 @@ function buildName(firstName, lastName) {
     };
 }
 
-module.exports =  buildName ;
+module.exports =  buildName;
 
