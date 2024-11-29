@@ -6,8 +6,8 @@ person1.hobbies("mangiare", "dormire", "giocare");
 console.log(person1);
 
 const person2 = buildPerson();
-person2.fullName("Mario", "Rossi");
-person2.hobbies("leggere", "scrivere", "camminare");
+person2.fullName("", "Rossi");
+person2.hobbies("leggere", "", "camminare");
 console.log(person2);
 
 const persona3 = buildPerson();

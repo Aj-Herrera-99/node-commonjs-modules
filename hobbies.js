@@ -1,6 +1,6 @@
 function buildHobbies(hobbyOne, hobbyTwo, hobbyThree){
     return ({
-        hobbies: [hobbyOne, hobbyTwo, hobbyThree]
+        hobbies: [hobbyOne || "hobby one", hobbyTwo || "hobby two", hobbyThree || "hobby three"]
     })
 }
 
