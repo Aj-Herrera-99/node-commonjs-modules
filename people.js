@@ -14,9 +14,4 @@ function buildPerson(){
     })
 }
 
-const person1 = buildPerson();
-person1.fullName("Aj", "Herrera");
-person1.hobbies("mangiare", "dormire", "giocare");
-console.log(person1);
-
 module.exports = buildPerson;
