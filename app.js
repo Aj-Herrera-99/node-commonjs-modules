@@ -9,3 +9,10 @@ const person2 = buildPerson();
 person2.fullName("Mario", "Rossi");
 person2.hobbies("leggere", "scrivere", "camminare");
 console.log(person2);
+
+const persona3 = buildPerson();
+const argsName = [process.argv[2], process.argv[3]];
+const [ , , , , ...argsHobbies] = process.argv;
+persona3.fullName(...argsName);
+persona3.hobbies(...argsHobbies);
+console.log(persona3);
