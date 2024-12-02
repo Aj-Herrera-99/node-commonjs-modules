@@ -1,7 +1,7 @@
 function buildName(firstName, lastName) {
     return {
-        firstName: firstName || "firstname",
-        lastName: lastName || "lastname",
+        firstName: firstName || "John",
+        lastName: lastName || "Doe",
     };
 }
 
